@@ -220,8 +220,8 @@
                       HorizontalAlignment="Right" 
                       VerticalAlignment="Stretch" Background="#FF747D6C"
                       />
-        <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <Viewbox  Height="165" Width="430">
+        <StackPanel Grid.Column="1" Margin="25" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Viewbox MaxHeight="400" >
                 <Grid>
                     <Image Source="/bomb.png"/>
                     <TextBlock Foreground="Red" Margin="191,29,127,43" Width="220" FontSize="20" FontFamily="Cascadia Code" TextWrapping="WrapWithOverflow">
